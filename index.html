@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AgentOps Google Workspace Connector</title>
+  <meta name="description" content="Private Google Workspace connector for Chris Tran's single-user AgentOps assistant.">
+  <style>
+    :root { color-scheme: light; --ink:#17202a; --muted:#59636e; --line:#dfe5ea; --accent:#176b57; --paper:#fff; --wash:#f4f7f6; }
+    * { box-sizing: border-box; }
+    body { margin:0; font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; color:var(--ink); background:var(--wash); line-height:1.6; }
+    main { max-width:760px; margin:64px auto; padding:40px; background:var(--paper); border:1px solid var(--line); border-radius:18px; box-shadow:0 12px 36px rgba(20,35,30,.06); }
+    .eyebrow { color:var(--accent); font-weight:700; letter-spacing:.08em; text-transform:uppercase; font-size:.78rem; }
+    h1 { margin:.35rem 0 1rem; font-size:clamp(2rem,5vw,3.2rem); line-height:1.08; }
+    h2 { margin-top:2rem; font-size:1.25rem; }
+    p, li { color:var(--muted); }
+    strong { color:var(--ink); }
+    .notice { margin:1.5rem 0; padding:1rem 1.1rem; border-left:4px solid var(--accent); background:#eef7f4; }
+    nav { display:flex; gap:1.1rem; flex-wrap:wrap; margin-top:2rem; padding-top:1.25rem; border-top:1px solid var(--line); }
+    a { color:var(--accent); }
+    footer { max-width:760px; margin:-36px auto 48px; padding:0 40px; color:var(--muted); font-size:.9rem; }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="eyebrow">Private, single-user integration</div>
+    <h1>AgentOps Google Workspace Connector</h1>
+    <p>This connector lets Chris Tran's locally operated AgentOps assistant perform explicitly authorized Google Workspace tasks such as managing email, calendar events, documents, spreadsheets, and files.</p>
+
+    <div class="notice"><strong>Not a public service.</strong> This integration is operated for one account owner and is not offered for general sign-up or third-party use.</div>
+
+    <h2>What it does</h2>
+    <ul>
+      <li>Reads, organizes, drafts, or sends Gmail messages when requested or through owner-approved automations.</li>
+      <li>Reads and manages Calendar events.</li>
+      <li>Works with authorized Drive files, Docs, and Sheets.</li>
+      <li>Uses read-only contact access when needed to identify intended recipients.</li>
+    </ul>
+
+    <h2>How authorization works</h2>
+    <p>Google OAuth is used so the account owner can review and approve each requested permission. Authorization can be revoked at any time from the Google Account security settings.</p>
+
+    <h2>Contact</h2>
+    <p>Questions about this connector or its use of Google data may be sent to <a href="mailto:chris.agentops@gmail.com">chris.agentops@gmail.com</a>.</p>
+
+    <nav aria-label="Legal and privacy links">
+      <a href="/privacy.html">Privacy Policy</a>
+      <a href="/terms.html">Terms of Use</a>
+    </nav>
+  </main>
+  <footer>AgentOps Google Workspace Connector · Operated by Chris Tran</footer>
+</body>
+</html>
